@@ -6,7 +6,7 @@ class CustomPlugin implements Plugin<Project> {
     void apply(Project project) {
         project.task('CustomPluginTask') {
             doLast {
-                println "hello1.6"
+                println "hello1.66"
             }
         }
     }
